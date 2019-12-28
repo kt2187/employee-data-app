@@ -15,11 +15,11 @@ const Employee = mongoose.model('Employee', employeeDataSchema);
 
 async function addEmployee() {
   const employee = new Employee({
-    employeeName: 'Barriere, Katie',
+    employeeName: 'Barriere, David',
     department: '10006',
-    dateOfBirth: '1968-07-19',
-    startDate: '1995-11-2',
-    currentSalary: '56895'
+    dateOfBirth: '1967-05-19',
+    startDate: '1994-10-21',
+    currentSalary: '76895'
   });
 
   const result = await employee.save();
