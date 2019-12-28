@@ -1,0 +1,14 @@
+{
+  "name": "employee-data-app",
+  "version": "1.0.0",
+  "description": "Employee Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katie Barriere",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.8.3"
+  }
+}

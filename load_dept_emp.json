@@ -1,0 +1,72 @@
+[
+  {
+    "employeeName": "Facello, Georgi",
+    "department": "10001",
+    "dateOfBirth": "1953-09-02",
+    "startDate": "1986-06-26",
+    "currentSalary": "62102"
+  },
+  {
+    "employeeName": "Simmel, Bezalel",
+    "department": "10001",
+    "dateOfBirth": "1964-06-02",
+    "startDate": "1985-11-21",
+    "currentSalary": "66074"
+  },
+  {
+    "employeeName": "Bamford, Parto",
+    "department": "10002",
+    "dateOfBirth": "1959-12-03",
+    "startDate": "1986-08-28",
+    "currentSalary": "66596"
+  },
+  {
+    "employeeName": "Koblick, Chirstian",
+    "department": "10002",
+    "dateOfBirth": "1954-05-01",
+    "startDate": "1986-12-01",
+    "currentSalary": "66961"
+  },
+  {
+    "employeeName": "Maliniak, Kyoichi",
+    "department": "10003",
+    "dateOfBirth": "1955-01-21",
+    "startDate": "1989-09-12",
+    "currentSalary": "71046"
+  },
+  {
+    "employeeName": "Preusig, Anneke",
+    "department": "10003",
+    "dateOfBirth": "1953-04-20",
+    "startDate": "1989-06-02",
+    "currentSalary": "74333"
+  },
+  {
+    "employeeName": "Zielinski, Tzvetan",
+    "department": "10004",
+    "dateOfBirth": "1957-05-23",
+    "startDate": "1989-02-10",
+    "currentSalary": "75286"
+  },
+  {
+    "employeeName": "Kalloufi, Saniya",
+    "department": "10004",
+    "dateOfBirth": "1958-02-19",
+    "startDate": "1994-09-15",
+    "currentSalary": "75994"
+  },
+  {
+    "employeeName": "Peac, Sumant",
+    "department": "10005",
+    "dateOfBirth": "1952-04-19",
+    "startDate": "1985-02-18",
+    "currentSalary": "76884"
+  },
+  {
+    "employeeName": "Piveteau, Duangkaew",
+    "department": "10005",
+    "dateOfBirth": "1963-06-01",
+    "startDate": "1989-08-24",
+    "currentSalary": "80013"
+  }
+]
