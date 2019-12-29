@@ -8,18 +8,20 @@ const employeeDataSchema = new mongoose.Schema({
   department: String,
   dateOfBirth: String,
   startDate: String,
-  currentSalary: String
+  startingSalary: Number,
+  currentSalary: Number
 });
 
 const Employee = mongoose.model('Employee', employeeDataSchema);
 
 async function addEmployee() {
   const employee = new Employee({
-    employeeName: 'Barriere, David',
+    employeeName: 'Smith, Kevin',
     department: '10006',
     dateOfBirth: '1967-05-19',
     startDate: '1994-10-21',
-    currentSalary: '76895'
+    startingSalary: 69748,
+    currentSalary: 76895
   });
 
   const result = await employee.save();
@@ -27,7 +29,9 @@ async function addEmployee() {
 }
 
 async function getEmployees() {
-  const employees = await Employee.find({ department: '10005', });
+  const employees = await Employee
+    //.find({ department: '10005', });
+    .find({ currentSalary: { $gt: 75000 } })
   console.log(employees);
 }
 
