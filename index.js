@@ -26,4 +26,10 @@ async function addEmployee() {
   console.log(result);
 }
 
-addEmployee();
+async function getEmployees() {
+  const employees = await Employee.find({ department: '10005', });
+  console.log(employees);
+}
+
+getEmployees();
+//addEmployee();
